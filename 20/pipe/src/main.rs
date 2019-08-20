@@ -2,11 +2,12 @@ use std::error::Error;
 use std::io::prelude::*;
 use std::process::{Command, Stdio};
 
-static PANGRAM: &'static str = "the quick brown fox jumped over the lazy dog\n";
+// static PANGRAM: &'static str = "the quick brown fox jumped over the lazy dog\n";
+static PANGRAM: &'static str = "ls -l";
 
 fn main() {
     println!("Hello, world!");
-    let process = match Command::new("wc")
+    let process = match Command::new("bash")
         .stdin(Stdio::piped())
         .stdout(Stdio::piped())
         .spawn()
