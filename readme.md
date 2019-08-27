@@ -49,6 +49,7 @@ macro_rules 🐮🍺 太强了
 一周目结束 _(:з」∠)_ 🎉🎉🎉
 
 [rust book](https://doc.rust-lang.org/book/index.html)
+[rust book cn](https://kaisery.github.io/trpl-zh-cn/ch10-01-syntax.html)
 
 ### 2019-08-20 15:32:27
 rust book 一周目启航 🚴
